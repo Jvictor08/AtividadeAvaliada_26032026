@@ -13,7 +13,7 @@ Explique claramente:
 - O que está **dentro** do MVP  
 - O que está **fora** do MVP  
 - Por que você fez essas escolhas
-    A principio vejo como mais importante o modulo de compra vendas estoque e produtos, esses modulos são interligados e dependem diretamente um do outro.
+    A principio vejo como mais importante o modulo de compra, vendas, estoque e produtos, esses modulos são interligados e dependem diretamente um do outro.
     Incluiria desde o cadastro dos produtos, até a finalização da venda e geração do comprovante.
     Naturalmente deve haver a validação do estoque antes da confirmação da venda e a atualização do estoque em tempo real, principalmente por questões de vendas sem estoque.
     Os demais modulos viriam posteriormente para complementar o sistema, modulos como contas a pagar e receber.
@@ -27,11 +27,11 @@ Exemplo de início:
 # 2. Regras de Negócio (mínimo: 5)
 Liste e descreva **cada RN** de forma clara.
 
-**RN01 —**  
-**RN02 —**  
-**RN03 —**  
-**RN04 —**  
-**RN05 —**  
+**RN01 — Vendas de produtos só poderão ser feitas mediante confirmado saldo em estoque.**  
+**RN02 — Quando um produto atingir uma quantidade minima no estoque deve ser gerado um aviso para os usuários**  
+**RN03 — Processo de venda a prazo somente poderá ser utilizado quando o cliente tiver cadastro na farmácia - Pessoa juridica**  
+**RN04 — Após feita uma nova aquisição de estoque os valores dos produtos devem ser ajustados conforme nova entrada**  
+**RN05 — Assim que realizada uma venda o produto deve ter seu saldo ajustado de imediato para que não haja conflitos de estoque**  
 
 (Adicione mais se quiser.)
 
