@@ -1,19 +1,23 @@
 # Avaliação — Engenharia de Software
 **Sistema Integrado de Gestão de Farmácia — MVP Definido pelo Estudante**
 
-Aluno: *Preencha aqui*  
-RA: *Preencha aqui*  
-Data: *Preencha aqui*  
+Aluno: João Victor Viana Marcolino  
+RA: 24001237
+Data: 26-03-2026
 
 ---
 
 # 1. Definição do MVP
-Descreva aqui **qual parte do sistema** foi incluída no seu MVP.  
 Explique claramente:
 
 - O que está **dentro** do MVP  
 - O que está **fora** do MVP  
-- Por que você fez essas escolhas  
+- Por que você fez essas escolhas
+    A principio vejo como mais importante o modulo de compra vendas estoque e produtos, esses modulos são interligados e dependem diretamente um do outro.
+    Incluiria desde o cadastro dos produtos, até a finalização da venda e geração do comprovante.
+    Naturalmente deve haver a validação do estoque antes da confirmação da venda e a atualização do estoque em tempo real, principalmente por questões de vendas sem estoque.
+    Os demais modulos viriam posteriormente para complementar o sistema, modulos como contas a pagar e receber.
+    A tomada dessa decisão se baseia no levantamento de requisitos feito pela farmacia, conflitos em vendas e estoque podem levar um negócio ao desequilíbrio e consequentemente á falência. 
 
 Exemplo de início:  
 > “Meu MVP cobre o processo de venda desde a identificação/cadastro do cliente até a emissão do comprovante, incluindo tratamento de estoque insuficiente.”
