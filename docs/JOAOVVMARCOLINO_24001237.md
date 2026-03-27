@@ -263,6 +263,30 @@ Para **cada caso de uso**, utilize o template abaixo:
 
 ---
 
+## **UC08 — FARMECEUTICO VENDA A PRAZO**
+**Ator(es): Farmaceutico**  
+**Descrição: Registrar venda a prazo**  
+**Pré-condições: Cliente cadastrado**  
+**Pós-condições: Venda a prazo realizada**  
+
+### Fluxo Principal
+1. Farmaceutico acessa o sistema
+2. Consulta Cliente
+3. Realiza venda a prazo
+
+### Fluxos Alternativos / Exceções
+- FA01 - Dados do cliente inválidos
+- FA02 - Venda não autorizada
+
+### Relacionamentos
+- sem relacionamento
+
+### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
+### Diagrama de Atividade 08
+
+<img width="364" height="422" alt="image" src="https://github.com/user-attachments/assets/d64829d5-13fb-409d-ab7d-c19306d3140c" />
+
+
 
 
 
