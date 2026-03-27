@@ -236,6 +236,36 @@ Para **cada caso de uso**, utilize o template abaixo:
 
 <img width="342" height="422" alt="image" src="https://github.com/user-attachments/assets/62605957-2956-4f04-8927-78d30f126e52" />
 
+---
+
+## **UC07 — FARMACEUTICO CADASTRA CLIENTE**
+**Ator(es): Farmaceutico**  
+**Descrição: Cadastro de cliente**  
+**Pré-condições: Usuário ativo e perfil Farmaceutico**  
+**Pós-condições: Cliente cadastrado**  
+
+### Fluxo Principal
+1. Farmaceutico acessa o sistema 
+2. Modulo de cadastro de clientes
+3. Cliente cadastrado
+
+### Fluxos Alternativos / Exceções
+- FA01 - Falha no login
+- FA02 - Dados do cliente inválidos
+
+### Relacionamentos
+- sem relacionamento
+
+### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
+### Diagrama de Atividade 07
+
+<img width="398" height="422" alt="image" src="https://github.com/user-attachments/assets/146d7a3d-1f2f-4ca5-8bba-749e8e8a3283" />
+
+---
+
+
+
+
 
 
 
