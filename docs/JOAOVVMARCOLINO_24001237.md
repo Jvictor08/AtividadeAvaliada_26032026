@@ -106,7 +106,7 @@ Para **cada caso de uso**, utilize o template abaixo:
 
 ## **UC02 — LOGIN E CONSULTA DE MEDICAMENTOS**
 **Ator(es): Usuário**  
-**Descrição: Login no sistema**  
+**Descrição: Consulta de medicamentos**  
 **Pré-condições: Usuário ativo e válido**  
 **Pós-condições: Conseguir consultar os remédios**  
 
@@ -132,7 +132,7 @@ Para **cada caso de uso**, utilize o template abaixo:
 
 ## **UC03 — LOGIN E CONSULTA DE MEDICAMENTOS E VENDA**
 **Ator(es): Usuário**  
-**Descrição: Login no sistema**  
+**Descrição: Consulta e venda de medicamentos**  
 **Pré-condições: Usuário ativo e válido**  
 **Pós-condições: Conseguir consultar os remédios e realizar venda**  
 
@@ -160,7 +160,7 @@ Para **cada caso de uso**, utilize o template abaixo:
 
 ## **UC04 — LOGIN E ATUALIZAÇÃO DE MEDICAMENTOS**
 **Ator(es): Gerente**  
-**Descrição: Login no sistema**  
+**Descrição: Atualização de medicamentos**  
 **Pré-condições: Usuário ativo e válido**  
 **Pós-condições: Medicamento atualizado**  
 
@@ -187,7 +187,7 @@ Para **cada caso de uso**, utilize o template abaixo:
 
 ## **UC05 — LOGIN E REALIZAÇÃO DE COMPRAS**
 **Ator(es): Financeiro**  
-**Descrição: Login no sistema**  
+**Descrição: Realização de compras**  
 **Pré-condições: Usuário ativo e válido**  
 **Pós-condições: Estoque Atualizado**  
 
@@ -215,7 +215,7 @@ Para **cada caso de uso**, utilize o template abaixo:
 
 ## **UC06 — GERENTE SOLICITAÇÃO DE RELATÓRIO**
 **Ator(es): Gerente**  
-**Descrição: Login no sistema**  
+**Descrição: Solicitação de relatório**  
 **Pré-condições: Usuário ativo e válido**  
 **Pós-condições: Visualização do relatório**  
 
