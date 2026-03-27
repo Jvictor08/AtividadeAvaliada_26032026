@@ -99,7 +99,7 @@ Para **cada caso de uso**, utilize o template abaixo:
 - sem relacionamento
 
 ### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
-###Diagrama de Atividade 01###
+### Diagrama de Atividade 01
 <img width="380" height="398" alt="image" src="https://github.com/user-attachments/assets/1caeb876-7a91-441d-86be-b781036f7beb" />
 
 ---
