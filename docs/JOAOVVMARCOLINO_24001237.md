@@ -174,6 +174,7 @@ Para **cada caso de uso**, utilize o template abaixo:
 ### Fluxos Alternativos / Exceções
 - FA01 - Falha no login
 - FA02 - Medicamento não localizado
+- FA03 - Informações inválidas
 
 ### Relacionamentos
 - sem relacionamento
