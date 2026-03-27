@@ -80,7 +80,7 @@ Liste os RNFs do sistema conforme seu MVP.
 Para **cada caso de uso**, utilize o template abaixo:
 ---
 
-## **UC01 — Nome do Caso de Uso**
+## **UC01 — LOGIN**
 **Ator(es): Usuário**  
 **Descrição: Login no sistema**  
 **Pré-condições: Usuário ativo e válido**  
@@ -103,5 +103,30 @@ Para **cada caso de uso**, utilize o template abaixo:
 <img width="380" height="398" alt="image" src="https://github.com/user-attachments/assets/1caeb876-7a91-441d-86be-b781036f7beb" />
 
 ---
+
+## **UC02 — LOGIN E CONSULTA DE MEDICAMENTOS**
+**Ator(es): Usuário**  
+**Descrição: Login no sistema**  
+**Pré-condições: Usuário ativo e válido**  
+**Pós-condições: Conseguir consultar os remédios**  
+
+### Fluxo Principal
+1. Usuário acessa o sistema  
+2. Fornece as credenciais 
+3. Autentica no sistema
+4. Consulta medicamentos
+
+
+### Fluxos Alternativos / Exceções
+- FA01 - Falha no login
+- FA02 - Não localiza medicamento 
+
+### Relacionamentos
+- sem relacionamento
+
+### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
+### Diagrama de Atividade 02
+<img width="553" height="517" alt="image" src="https://github.com/user-attachments/assets/494627de-560d-45ac-82f5-f6d50b918e02" />
+
 
 
