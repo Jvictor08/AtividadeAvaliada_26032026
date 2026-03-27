@@ -286,6 +286,59 @@ Para **cada caso de uso**, utilize o template abaixo:
 
 <img width="364" height="422" alt="image" src="https://github.com/user-attachments/assets/d64829d5-13fb-409d-ab7d-c19306d3140c" />
 
+---
+
+## **UC09 — GERENTE CONSULTA PRODUTO**
+**Ator(es): Gerente**  
+**Descrição: Consulta consulta produtos mais vendidos**  
+**Pré-condições: Perfil gerente**  
+**Pós-condições: Produto consultado com sucesso**  
+
+### Fluxo Principal
+1. Gerente acessa o sistema
+2. Consulta relatórios
+3. Produtos mais vendidos
+
+### Fluxos Alternativos / Exceções
+- FA01 - Perfil não autorizado
+
+### Relacionamentos
+- sem relacionamento
+
+### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
+### Diagrama de Atividade 09
+
+<img width="228" height="303" alt="image" src="https://github.com/user-attachments/assets/1e6c6801-6f4a-46d5-bf45-46c46844b70e" />
+
+---
+
+## **UC10 — REMOÇÃO DE MEDICAMENTOS (Inativação)**
+**Ator(es): Gerente**  
+**Descrição: Inativa de medicamentos cadastrados**  
+**Pré-condições: Perfil gerente**  
+**Pós-condições: Medicamento removido**  
+
+### Fluxo Principal
+1. Gerente acessa o sistema
+2. Consulta produtos
+3. Remove produto do sistema (Inativação)
+
+### Fluxos Alternativos / Exceções
+- FA01 - Sem autorização de perfil
+- FA02 - Produto não localizado
+
+### Relacionamentos
+- sem relacionamento
+
+### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
+### Diagrama de Atividade 10
+<img width="353" height="477" alt="image" src="https://github.com/user-attachments/assets/3445750f-8c99-480d-920a-dfd5352ae901" />
+
+
+
+
+
+
 
 
 
