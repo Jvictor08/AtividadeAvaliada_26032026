@@ -128,6 +128,8 @@ Para **cada caso de uso**, utilize o template abaixo:
 ### Diagrama de Atividade 02
 <img width="553" height="517" alt="image" src="https://github.com/user-attachments/assets/494627de-560d-45ac-82f5-f6d50b918e02" />
 
+---
+
 ## **UC03 — LOGIN E CONSULTA DE MEDICAMENTOS E VENDA**
 **Ator(es): Usuário**  
 **Descrição: Login no sistema**  
@@ -154,6 +156,32 @@ Para **cada caso de uso**, utilize o template abaixo:
 ### Diagrama de Atividade 03
 <img width="570" height="550" alt="image" src="https://github.com/user-attachments/assets/5c5d247b-6ac0-4eb6-86e5-ce7475c3e1b4" />
 
+---
+## **UC04 — LOGIN E CADASTRO DE PRODUTO**
+**Ator(es): Gerente**  
+**Descrição: Login no sistema**  
+**Pré-condições: Usuário ativo e válido**  
+**Pós-condições: Produto Atualizado**  
 
+### Fluxo Principal
+1. Gerente acessa o sistema  
+2. Fornece as credenciais 
+3. Autentica no sistema
+4. Localiza medicamento
+5. Realiza a atualização das informações do sistema
+
+
+### Fluxos Alternativos / Exceções
+- FA01 - Falha no login
+- FA02 - Medicamento não localizado
+
+### Relacionamentos
+- sem relacionamento
+
+### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
+### Diagrama de Atividade 04
+<img width="662" height="605" alt="image" src="https://github.com/user-attachments/assets/ffcbf298-a3e7-47b7-9819-7316297583e1" />
+
+---
 
 
