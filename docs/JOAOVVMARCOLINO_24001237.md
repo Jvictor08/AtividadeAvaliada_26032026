@@ -76,16 +76,15 @@ Liste os RNFs do sistema conforme seu MVP.
 <img width="545" height="334" alt="image" src="https://github.com/user-attachments/assets/cd68ba50-b96b-4096-82bc-edc591e2b7e4" />
 
 ---
-
 # 6. Documentação dos Casos de Uso
 Para **cada caso de uso**, utilize o template abaixo:
 ---
 
-## **UCXX — Nome do Caso de Uso**
-**Ator(es):Usuário**  
-**Descrição:Login no sistema**  
-**Pré-condições:Usuário ativo e válido**  
-**Pós-condições:Conseguir acessar o sistema**  
+## **UC01 — Nome do Caso de Uso**
+**Ator(es): Usuário**  
+**Descrição: Login no sistema**  
+**Pré-condições: Usuário ativo e válido**  
+**Pós-condições: Conseguir acessar o sistema**  
 
 ### Fluxo Principal
 1. Usuário acessa o sistema  
@@ -100,6 +99,7 @@ Para **cada caso de uso**, utilize o template abaixo:
 - sem relacionamento
 
 ### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
+###Diagrama de Atividade 01###
 <img width="380" height="398" alt="image" src="https://github.com/user-attachments/assets/1caeb876-7a91-441d-86be-b781036f7beb" />
 
 ---
