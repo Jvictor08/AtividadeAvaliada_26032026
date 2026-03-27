@@ -40,14 +40,14 @@ Liste e descreva **cada RN** de forma clara.
 # 3. Requisitos Funcionais (mínimo: 8)
 Liste os requisitos funcionais do seu MVP.
 
-**RF01 —**  
-**RF02 —**  
-**RF03 —**  
-**RF04 —**  
-**RF05 —**  
-**RF06 —**  
-**RF07 —**  
-**RF08 —**  
+**RF01 — O sistema deve permitir cadastro, consulta de atualização de produtos baseados nesses dados (nome, código de barras, fabricante)**  
+**RF02 — Naturalmente quando um chegar ao fim no estoque o status dele deve ser mudado para inativo e notificar os usuários**  
+**RF03 — O saldo do estoque deve ser ajustado assim que for realizada uma venda**  
+**RF04 — O modulo de compras deve ser acessível somente aos responsáveis (setor financeiro)**  
+**RF05 — O sistema deve gerar um comprovante cumpom de compra assim que o pagemento for confirmado**  
+**RF06 — O gerente deve conseguir atualizar produtos, estoque e consultar relatórios**  
+**RF07 — O sistema deve armazenar um registro das vendas e compras realizadas para fins de relatórios**  
+**RF08 — O sistema deve permitir alterações como, devoluções e transferencias de estoque entre outras filiais**  
 
 (Adicione mais se quiser.)
 
@@ -56,10 +56,10 @@ Liste os requisitos funcionais do seu MVP.
 # 🛡 4. Requisitos Não Funcionais (mínimo: 4)
 Liste os RNFs do sistema conforme seu MVP.
 
-**RNF01 —**  
-**RNF02 —**  
-**RNF03 —**  
-**RNF04 —**  
+**RNF01 — O sistema deve exigir login e senha dos usuários para autenticação**  
+**RNF02 — O sistema precisa ter uma alta disponibilidade (principalmente se a farmacia for 24hrs)**  
+**RNF03 — As consultas de produtos não podem exceder 2 segundos**  
+**RNF04 — Vendas e compras devem ajustar o estoque instantaneamente (tolerancia de 5 segundos)**  
 
 (Adicione mais se quiser.)
 
@@ -71,6 +71,9 @@ Liste os RNFs do sistema conforme seu MVP.
 - relação entre eles e atores
 - pelo menos 3 includes
 - pelo menos 3 extends
+
+<img width="525" height="601" alt="image" src="https://github.com/user-attachments/assets/5548f1dd-2f56-4766-9759-7b6411a289a3" />
+<img width="545" height="334" alt="image" src="https://github.com/user-attachments/assets/cd68ba50-b96b-4096-82bc-edc591e2b7e4" />
 
 ---
 
