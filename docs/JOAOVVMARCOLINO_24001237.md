@@ -157,6 +157,7 @@ Para **cada caso de uso**, utilize o template abaixo:
 <img width="570" height="550" alt="image" src="https://github.com/user-attachments/assets/5c5d247b-6ac0-4eb6-86e5-ce7475c3e1b4" />
 
 ---
+
 ## **UC04 — LOGIN E ATUALIZAÇÃO DE MEDICAMENTOS**
 **Ator(es): Gerente**  
 **Descrição: Login no sistema**  
@@ -169,7 +170,6 @@ Para **cada caso de uso**, utilize o template abaixo:
 3. Autentica no sistema
 4. Localiza medicamento
 5. Realiza a atualização das informações do medicamento
-
 
 ### Fluxos Alternativos / Exceções
 - FA01 - Falha no login
@@ -199,7 +199,6 @@ Para **cada caso de uso**, utilize o template abaixo:
 5. Realiza compra
 6. Estoque atualizado
 
-
 ### Fluxos Alternativos / Exceções
 - FA01 - Falha no login
 - FA02 - Problema ao realizar as compras
@@ -212,6 +211,30 @@ Para **cada caso de uso**, utilize o template abaixo:
 
 <img width="284" height="422" alt="image" src="https://github.com/user-attachments/assets/98b24c80-7cbc-4d64-9a99-bee7b1d6fad8" />
 
+---
+
+## **UC06 — GERENTE SOLICITAÇÃO DE RELATÓRIO**
+**Ator(es): Gerente**  
+**Descrição: Login no sistema**  
+**Pré-condições: Usuário ativo e válido**  
+**Pós-condições: Visualização do relatório**  
+
+### Fluxo Principal
+1. Gerente acessa o sistema
+2. Define periodo para gerar relatório
+3. visualiza relatório
+
+### Fluxos Alternativos / Exceções
+- FA01 - Falha no login
+- FA02 - Não existem dados para o periodo solicitado
+
+### Relacionamentos
+- sem relacionamento
+
+### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
+### Diagrama de Atividade 06
+
+<img width="342" height="422" alt="image" src="https://github.com/user-attachments/assets/62605957-2956-4f04-8927-78d30f126e52" />
 
 
 
