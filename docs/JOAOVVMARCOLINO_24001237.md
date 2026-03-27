@@ -157,18 +157,18 @@ Para **cada caso de uso**, utilize o template abaixo:
 <img width="570" height="550" alt="image" src="https://github.com/user-attachments/assets/5c5d247b-6ac0-4eb6-86e5-ce7475c3e1b4" />
 
 ---
-## **UC04 — LOGIN E CADASTRO DE PRODUTO**
+## **UC04 — LOGIN E ATUALIZAÇÃO DE MEDICAMENTOS**
 **Ator(es): Gerente**  
 **Descrição: Login no sistema**  
 **Pré-condições: Usuário ativo e válido**  
-**Pós-condições: Produto Atualizado**  
+**Pós-condições: Medicamento atualizado**  
 
 ### Fluxo Principal
 1. Gerente acessa o sistema  
 2. Fornece as credenciais 
 3. Autentica no sistema
 4. Localiza medicamento
-5. Realiza a atualização das informações do sistema
+5. Realiza a atualização das informações do medicamento
 
 
 ### Fluxos Alternativos / Exceções
@@ -184,5 +184,36 @@ Para **cada caso de uso**, utilize o template abaixo:
 <img width="662" height="605" alt="image" src="https://github.com/user-attachments/assets/ffcbf298-a3e7-47b7-9819-7316297583e1" />
 
 ---
+
+## **UC05 — LOGIN E REALIZAÇÃO DE COMPRAS**
+**Ator(es): Financeiro**  
+**Descrição: Login no sistema**  
+**Pré-condições: Usuário ativo e válido**  
+**Pós-condições: Estoque Atualizado**  
+
+### Fluxo Principal
+1. Financeiro acessa o sistema  
+2. Fornece as credenciais 
+3. Autentica no sistema
+4. Acessa modulo de compras
+5. Realiza compra
+6. Estoque atualizado
+
+
+### Fluxos Alternativos / Exceções
+- FA01 - Falha no login
+- FA02 - Problema ao realizar as compras
+
+### Relacionamentos
+- sem relacionamento
+
+### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
+### Diagrama de Atividade 05
+
+<img width="284" height="422" alt="image" src="https://github.com/user-attachments/assets/98b24c80-7cbc-4d64-9a99-bee7b1d6fad8" />
+
+
+
+
 
 
