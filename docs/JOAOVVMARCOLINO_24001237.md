@@ -82,27 +82,26 @@ Para **cada caso de uso**, utilize o template abaixo:
 ---
 
 ## **UCXX — Nome do Caso de Uso**
-**Ator(es):**  
-**Descrição:**  
-**Pré-condições:**  
-**Pós-condições:**  
+**Ator(es):Usuário**  
+**Descrição:Login no sistema**  
+**Pré-condições:Usuário ativo e válido**  
+**Pós-condições:Conseguir acessar o sistema**  
 
 ### Fluxo Principal
-1.  
-2.  
-3.  
-4.  
+1. Usuário acessa o sistema  
+2. Fornece as credenciais 
+3. Autentica no sistema 
+
 
 ### Fluxos Alternativos / Exceções
-- FA01 —  
-- FA02 —  
+- FA01 — Falha no login 
 
 ### Relacionamentos
-- **Include:** (listar quando aplicável)  
-- **Extend:** (listar quando aplicável)  
+- sem relacionamento
 
 ### Inserir o diagrama de atividades do Caso de Uso, demonstrando tudo o fluxo princial e alternativos/exceções.
+<img width="380" height="398" alt="image" src="https://github.com/user-attachments/assets/1caeb876-7a91-441d-86be-b781036f7beb" />
 
 ---
 
-> Repita essa estrutura para **todos os seus casos de uso** (mínimo 10).
+
